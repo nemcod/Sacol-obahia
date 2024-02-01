@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial;
+    font-size: 1em;
+}
+
+/* cabecalho */
+
+#cabecalho {
+    background: black;
+    height: 100px;
+    text-align: center;
+}
+#cabecalho h1 {
+    color: green;
+    font-size: 2.5em;
+    padding-top: 20px;
+}
+#cabecalho span {
+    color: yellow;
+    margin-left: -30px;
+}
+
+/* area do menu */
+
+#menu {
+    background: #545454;
+    background: linear-gradient(to right, #545454, #545454, #545454, #696969);
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    border-top: 1px solid white;
+    border-bottom: 2px solid black;
+}
+#menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+}
+
+#menu a:visited {
+    color: yellow;
+}
+#menu a:hover {
+    background: white;
+    margin: 5px;
+    color: black;
+}
+
+/* area da tabela */
+#tabela {
+    text-align: center;
+    padding: 10px;
+    color: red;
+}
+
+#tabela h1 {
+    margin: 10px;
+}
+
+table {
+    color: black;
+    width: 380px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.verde {
+    background: #00d903a3;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.rosa {
+    background: #ff0a004c;
+}
+
+/* recente */
+
+#recente {
+    border: 1.5px solid gray;
+    margin: 5px;
+    padding-bottom: 20px;
+    
+}
+
+
+/* area de imagens */
+
+#area_imagem {
+    background: #c8c8c8;
+    background: linear-gradient(to bottom, #c8c8c8, white);
+}
+
+.paragrafo {
+    margin: 10px;
+    padding: 10px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}
+
+img {
+    margin: 10px;
+    border: 3px solid white;
+}
+
+.paragrafo p {
+    padding: 20px;
+}
+
+/* menu segundo */
+#menu_segundo {
+    background: #006b01;
+    background: linear-gradient(to top, green, white);
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #003f01;
+}
+
+.centro {
+    margin-left: 90px;
+    color: white;
+}
+
+.centro ul li {
+    margin: 20px;
+}
+
+.centro a {
+    color: black;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+}
+
+
+/* rodape */
+
+#rodape {
+    background: #003f01;
+    font-size: 0.6em;
+}
+#rodape, span {
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
